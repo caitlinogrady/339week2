@@ -1,0 +1,38 @@
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+}
+h1,h2,h3{
+    font-weight: bold;
+    margin-top:15px;
+}
+nav ul li{
+    background-color: aqua;
+    padding: 20px;
+    margin: 7px;
+    width: 130px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 30px;
+    position: static;
+    overflow: visible;
+    list-style-type: none;
+    float:left;
+    white-space: nowrap;
+    text-align: center;
+    display: block;
+    box-sizing: content-box;
+}
+img{
+    width: .24;
+    padding:12px;
+    border: 3px solid coral;
+    margin:0px;
+}
+p{
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+    font-weight: bolder;
+    text-decoration-color: darkblue;
+}
