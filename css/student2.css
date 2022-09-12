@@ -1,0 +1,38 @@
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+  
+ h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+ } 
+
+nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 10px 20px 0px;
+    padding: 15px;
+    height: 10px;
+    width: 140px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #19f2fd;
+}
+
+main img {
+    width: 24%;
+    padding: 15px;
+    border: 5px dashed #167516;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+p {
+    background-color: cornflowerblue;
+    border: 2px solid darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 28px;
+}
