@@ -36,3 +36,20 @@ p{
     font-weight: bolder;
     text-decoration-color: darkblue;
 }
+.gallery{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    border: 3px solid cornflowerblue;
+    width: 90%;
+    justify-content: space-evenly;
+    align-items: stretch;
+    
+}
+.gallery img{
+    width: 100%;
+    border: 3px dashed darkblue;
+}
+div.gallery img:last-child{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
