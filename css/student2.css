@@ -27,7 +27,7 @@ main img {
     padding: 15px;
     border: 5px dashed #167516;
     margin: 0;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
 
 p {
@@ -35,4 +35,23 @@ p {
     border: 2px solid darkblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
+}
+
+div.gallery {
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    width: 90%;
+    border: 3px solid blue;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.gallery img {
+    width: 90%;
+}
+
+div.gallery img:last-child {
+    grid-column-start: 1;
+    grid-column-end: 4;
 }
